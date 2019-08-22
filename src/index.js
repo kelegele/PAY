@@ -33,10 +33,10 @@ function component() {
             //二维码图片
             code.innerHTML = `<div class='text'>长按二维码扫一扫<div><br/><img class = 'img' src = ${wechat}></img>`
         } else if (value === 'Alipay') {
-            window.location.href = "https://qr.alipay.com/fkx03722sfourpfw3kghsd5";
-            location.reload();
+            //window.location.href = "https://qr.alipay.com/fkx03722sfourpfw3kghsd5";
+            //location.reload();
             //二维码图片
-            //code.innerHTML = `<img class = 'img' src = ${alipay}></img>`
+            code.innerHTML = `<img class = 'img' src = ${alipay}></img>`
         } else {
             code.innerHTML = '未知错误！'
         }
