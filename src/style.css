@@ -1,0 +1,15 @@
+body {
+    text-align:center;
+}
+
+.text{
+    color: midnightblue;
+    font-size: 3.5rem;
+    text-align:center;
+    font-weight: bolder;
+}
+.img{
+    position: relative;
+    max-width: 70%;
+    max-height: auto;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "pay",
+  "version": "1.0.0",
+  "description": "自动辨识支付端从而切换收款码",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config webpack.config.js",
+    "watch": "webpack --watch",
+    "server": "node server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "my-pay"
+  },
+  "author": "kelegele",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {},
+  "keywords": []
+}
